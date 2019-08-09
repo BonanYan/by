@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	color: #404040;
+	font-family: droid-serif, serif;
+	font-size: 12pt;
+}
+
+.container {
+	background-color: #FFFFFF;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.row {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display:inline-block;
+}
+.row.header {
+	margin-top: 20pt;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	line-height: 10px;
+}
+.heading-1{
+	font-family: league-gothic, sans-serif;
+	font-weight: bold;
+	font-size: 60pt;
+	color: #0094c6;
+}
+.heading-2{
+	font-family: philosopher, sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	margin-top: 2pt;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0pt;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.heading-2 a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.column_header {
+	width: 64%;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.column_header.photo {
+	width: 36%;
+}
+
+.sectionHeader {
+	font-family: league-gothic, sans-serif;
+	font-weight: bold;
+	font-size: 30pt;
+	color: #0094c6;
+	padding-top: 5pt;
+	padding-right: 0pt;
+	padding-bottom: 5pt;
+	padding-left: 0pt;
+}
+
+.content {
+	padding-top: 0px;
+	padding-right: 5pt;
+	padding-bottom: 0px;
+	padding-left: 0pt;
+	color: #404040;
+	font-family: droid-serif, serif;
+/*	font-family: philosopher, sans-serif;*/
+	font-size: 12pt;
+	line-height: 20pt;
+	text-align: justify;
+}
+.content a{
+	font-weight: bold;
+	color: black;
+}
+
+.content ul {
+	list-style-type:none;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	padding-left: 0pt;
+	padding-top: 0pt;
+	
+}
+
+.content li {
+	padding-top: 0pt;
+	padding-bottom: 10pt;
+}
+
+.motto {
+	text-align: center;
+	font-family: sofia, fantasy;
+	font-size: 20pt;
+}
